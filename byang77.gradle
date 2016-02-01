@@ -1,0 +1,19 @@
+task compileJava << {
+    
+}
+
+task compileTest(dependsOn: compileJava) << {
+    
+}
+
+task javadoc(dependsOn: compileJava) << {
+    
+}
+
+task clean << {
+    
+}
+
+task jar(dependsOn: compileJava) << {
+    
+}

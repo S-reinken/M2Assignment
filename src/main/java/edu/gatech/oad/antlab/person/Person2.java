@@ -30,7 +30,7 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  return new StringBuilder(input).reverse.toString();
+	  return new StringBuilder(input).reverse().toString();
 	}
 	/**
 	 * Return a string rep of this object
