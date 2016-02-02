@@ -32,11 +32,7 @@ public class Person1 {
 	private String calc(String input) {
             String total = "";
             for (int i = 0; i < input.length(); i++) {
-                if (i + 2 < input.length()) {
-                    total = total + input.charAt(i + 2);
-                } else {
-                    total = total + input.charAt(i - input.length());
-                }
+                total = total + input.charAt((i + 2) % input.length());
             }
             return total;
 	}
