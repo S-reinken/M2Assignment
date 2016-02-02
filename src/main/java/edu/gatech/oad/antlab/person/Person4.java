@@ -32,7 +32,7 @@ public class Person4 {
     private String calc(String input) {
       String output = "";
       for (int x = 0; x < input.length(); x++) {
-        output += (input.charAt(x) + 1);
+        output = output + (char)(input.charAt(x) + 1);
       }
       return output;
     }
